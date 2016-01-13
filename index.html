@@ -1,0 +1,28 @@
+<html ng-app="app">
+<head>
+    <title>SPA</title>
+    <base href="/" />
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+    <div >
+
+
+    <a href="/create">create</a>
+    <a href="#"></a>
+    </div>
+
+    <ng-view></ng-view>
+
+    <script src="/scripts/angular/angular.min.js"></script>
+    <script src="/scripts/angular-route/angular-route.min.js"></script>
+    <script src="/scripts/angular-resource/angular-resource.min.js"></script>
+
+    <script src="/javascript/app.js" charset="utf-8"></script>
+    <script src="/javascript/services/MovieService.js" charset="utf-8"></script>
+    <script src="/javascript/controller/HomeController.js" charset="utf-8"></script>
+    <script src="/javascript/controller/MovieCreateController.js" charset="utf-8"></script>
+    <script src="/javascript/controller/MovieDetailsController.js" charset="utf-8"></script>
+</body>
+</html>
